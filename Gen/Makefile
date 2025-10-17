@@ -5,7 +5,7 @@ MYSQL_LIBS = $(shell mysql_config --libs)
 
 SOURCES = src/main.c src/database.c src/calculations.c
 OBJECTS = $(SOURCES:.c=.o)
-TARGET = NuGen
+TARGET = NuGen.out
 
 .PHONY: all clean
 
