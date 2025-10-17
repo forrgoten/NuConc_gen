@@ -77,7 +77,7 @@ if errorlevel 1 (
 
 echo.
 echo ===============================================
-echo           БАЗА ДАННЫХ УСПЕШНО СОЗДАНА
+echo           DB SUCSESSFULLY CREATED 
 echo ===============================================
 echo Database name:   %DB_NAME%
 echo User:            %DB_USER%
